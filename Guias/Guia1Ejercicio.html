@@ -6,6 +6,13 @@
     <body>
         <script>
             var numero = prompt('Ingrese un número:');
+            var sumapar = 0;
+            for (var i = 0; i < numero; i++) {
+                if (i % 2 == 0) {
+                    sumapar += i;
+                }
+            }
+            console.log('La suma de los numeros pares desde el 1 es'+ sumapar);
         </script>
     </body>
-</html>1
+</html>
