@@ -31,18 +31,18 @@ function primerNum () {
     }
 }
 
+var mayus = 0
+var min = 0
 
 function letras(){
-    mayus = 0
-    min = 0
 
     for (var i = 0; i <= nombre.length; i++){
-        mayusc = nombre[i].toUpperCase();
-        if (nombre[i] == mayusc){
+        var mayusc = nombre[i];
+        if (nombre[i] == mayusc.toUpperCase){
             mayus += 1;
         }
-        minus = nombre[i].toLowerCase();
-        if (nombre[i] == minus){
+        var minus = nombre[i];
+        if (nombre[i] == minus.toLowerCase){
             min += 1;
         }
     }
